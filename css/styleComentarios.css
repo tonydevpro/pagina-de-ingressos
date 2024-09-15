@@ -1,0 +1,48 @@
+h1{
+    color:aliceblue;
+    padding-bottom: 2%;
+}
+
+.subBody{
+    display: flex;
+    flex-direction: column;
+    margin: 10%;
+}
+.comentarios{
+    margin: 10% 0;
+    
+}
+
+[id*='comentario_'] {
+    color: aliceblue;
+    border: 0px white solid;
+    padding: 2% 1%;
+    
+    margin: 2% 0;
+    box-shadow: -10px 10px 80px rgb(6, 42, 77, 0.9);
+    
+}
+input{
+    margin: 1% 0;
+    border: 0px;
+    color: white;
+
+}
+input#com{
+    padding-bottom: 4%;
+    
+}
+button{
+    background-color: #841633;
+    width: 15%;
+    border-radius: 10px;
+    border: 1px solid #062a4d;
+    color: #062a4d;
+    cursor: pointer;
+
+}
+button:active{
+    box-shadow: 5px 10px 20px rgb(132, 22, 51);
+    background-color: #062a4d;
+    color: #841633;
+}

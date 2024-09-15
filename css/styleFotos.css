@@ -1,0 +1,63 @@
+*{
+    background-image: url(/img/fotoback.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+html{
+    height: 100%;
+} body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+header {
+    
+    padding: 10px 20px;  
+}
+
+footer {
+    
+    padding: 10px 20px;  
+}
+
+.tela{
+   /* background-image: url(/img/fotoback.png);
+    background-color: #f00222;*/
+    background-size: cover;
+    background-position: center;
+    
+    background-repeat: no-repeat;
+    flex: 1;
+    display: flex;
+
+    
+
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 20px;
+
+
+    background-position: 100% 100%;
+    
+    
+    
+    
+}
+    
+#back{
+    border: none;
+}    
+
+.elenco{
+    display: flex;
+    gap: 10px;
+    overflow-x: auto; /* Permite rolar horizontalmente se necessário */
+    
+}
+img{
+    max-width: 200px;
+    max-height: 200px;
+    margin: 10px;
+}

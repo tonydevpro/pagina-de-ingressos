@@ -1,0 +1,31 @@
+body{
+    color: aliceblue;
+    
+}
+.contato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+    gap: 5%;
+    
+}
+.inp{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+.form{
+    
+}
+h1{
+    padding: 10% 0;
+}
+button{
+    color: white;
+    margin-top: 10%;
+    background-color: #841633;
+    border-radius: 10px;
+    padding: 5px 15px;
+}
